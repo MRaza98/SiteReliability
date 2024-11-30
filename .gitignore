@@ -1,0 +1,36 @@
+# Python virtual environment
+site_reliability/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+.env
+.env.local
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# AWS SAM
+.aws-sam/
+
+# Zip files
+*.zip
