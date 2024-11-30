@@ -4,6 +4,9 @@ A serverless service health monitoring system built with AWS Lambda.
 
 ## Architecture
 
+<img width="737" alt="image" src="https://github.com/user-attachments/assets/60984123-7cf4-4bcc-b4f1-1a0123be9077">
+
+
 This system uses:
 
 - AWS Lambda for serverless computation
