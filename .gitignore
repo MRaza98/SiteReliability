@@ -1,36 +1,53 @@
-# Python virtual environment
-site_reliability/
-env/
-
-# Python cache files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Distribution / packaging
-dist/
+*.so
+.Python
+env/
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
 *.egg-info/
+.installed.cfg
+*.egg
 
-# Local development settings
-.env
-.env.local
+# Virtual Environment
+venv/
+ENV/
 
-# Terraform files
+# Docker
+.docker/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# AWS
+.aws/
+
+# Terraform
 .terraform/
 *.tfstate
 *.tfstate.*
 *.tfvars
-.terraform.lock.hcl
+.terraformrc
+terraform.rc
 
-# IDE specific files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# AWS SAM
-.aws-sam/
-
-# Zip files
-*.zip
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+secrets.json
+.secrets/
